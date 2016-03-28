@@ -31,6 +31,10 @@ int main(void) {
         coins = 1;
     }
     
+    if (newChange < 25) {
+        coins = (int)(newChange / 10) + newChange % 5;
+    }
+    
     if (newChange == 25) {
         coins = (int)(newChange / 25);
         printf("coins are %d\n", coins);
