@@ -37,7 +37,6 @@ int main(void) {
     
     if (newChange == 25) {
         coins = (int)(newChange / 25);
-        printf("coins are %d\n", coins);
     }
    
     printf("%d", coins);
